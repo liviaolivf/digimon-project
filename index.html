@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digimon</title>
+  <link rel="shorcut icon" href="./assets/logo-head.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <img src="./assets/logo.png" alt="Logo Digimon.">
+    <div id="container-search">
+      <div id="input-icon">
+        <input type="text" id="search-bar" placeholder="Pesquisar Digimon...">
+        <i class="fa solid fa-search"></i>
+      </div>
+      <select id="level-filter">
+        <option value="all">Todos os Níveis</option>
+        <option value="Fresh">Fresh</option>
+        <option value="In Training">In Training</option>
+        <option value="Rookie">Rookie</option>
+        <option value="Champion">Champion</option>
+        <option value="Ultimate">Ultimate</option>
+        <option value="Mega">Mega</option>
+      </select>
+    </div>
+    <div class="container-digimons">
+      <div id="digimon-list"></div>
+    </div>
+  </main>
+
+  <!-- Modal de Mais Detalhes-->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-details"></div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/c9158e4d27.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
