@@ -8,13 +8,13 @@ Projeto desenvolvido para a vaga de estágio front-end na <a href="https://globa
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="projeto Digimon." src=".github/preview.jpg" width="100%">
+  <img alt="Projeto Digimon." src="./assets/Capa.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -28,15 +28,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+O projeto Digimon é um site com objetivo de consumir a <a href="https://digimon-api.vercel.app">API de Digimon</a>. Utilizando JavaScript, o site exibe os Digimons com seus respectivos nomes e níveis. Inclui funcionalidades de busca por nome de Digimon e filtros por nível, proporcionando uma experiência de usuário intuitiva e eficiente.
 
 - [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
 
-- [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
-
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/design/E5QRysbITnnjTnofg0RCts/Projeto-digimon?node-id=0-1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ---
 
