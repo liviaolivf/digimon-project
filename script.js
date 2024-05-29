@@ -35,18 +35,17 @@ document.addEventListener("DOMContentLoaded", function () {
     displayDigimons(filteredDigimons);
   });
 
-  
   closeModal.addEventListener("click", function () {
     modal.style.display = "none";
-  
-    document.body.classList.remove("modal-open")
+
+    document.body.classList.remove("modal-open");
   });
 
   window.addEventListener("click", function (event) {
     if (event.target == modal) {
       modal.style.display = "none";
-      
-      document.body.classList.remove("modal-open")
+
+      document.body.classList.remove("modal-open");
     }
   });
 
@@ -77,17 +76,19 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function showDetails(digimon) {
-    document.body.classList.add("modal-open")
+    document.body.classList.add("modal-open");
 
     modal.querySelector("h2").textContent = digimon.name;
 
     modalContent.innerHTML = `
         <img src="${digimon.img}" alt="${digimon.name}" style="max-width: 100%; border-radius: 8px;">
-        <p class="modal-level"><strong class="nivel">Nível:</strong> ${digimon.level}</p>
+        <div class="description-box">
+        <p class="modal-level"><span class="nivel"></span> ${digimon.level}</p>
         <p class="description">
           <strong>Descrição:</strong>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum ex a nunc ultrices interdum. Suspendisse a varius dolor, vitae consectetur quam. Donec vestibulum elit eu scelerisque lobortis. Proin sodales efficitur tortor. Nullam vitae metus at dolor porttitor faucibus eget a sem. Praesent porta viverra risus, at pulvinar magna tristique sed.
         </p>
+        </div>
     `;
     modal.style.display = "block";
   }
