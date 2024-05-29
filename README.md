@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto Digimon é um site com objetivo de consumir a <a href="https://digimon-api.vercel.app">API de Digimon</a>. Utilizando JavaScript, o site exibe os Digimons com seus respectivos nomes e níveis. Inclui funcionalidades de busca por nome de Digimon e filtros por nível, proporcionando uma experiência de usuário intuitiva e eficiente.
+O projeto Digimon foi desenvolvido com objetivo de consumir a <a href="https://digimon-api.vercel.app">API de Digimon</a>. Utilizando JavaScript, o site exibe os Digimons com seus respectivos nomes e níveis. Inclui funcionalidades de busca por nome de Digimon e filtros por nível, proporcionando uma experiência de usuário intuitiva e eficiente.
 
 - [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
 
